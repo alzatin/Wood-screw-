@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "Wood screw ",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "709c9a0a-5501-48e9-aa3e-9822177c18eb",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "Inches",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
