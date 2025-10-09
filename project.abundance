@@ -1,15 +1,317 @@
 {
-    "atomType": "Molecule",
-    "name": "Wood screw ",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "709c9a0a-5501-48e9-aa3e-9822177c18eb",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "Inches",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "Wood screw ",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "709c9a0a-5501-48e9-aa3e-9822177c18eb",
+  "ioValues": [
+    {
+      "name": "Shaft Diam",
+      "ioValue": 0.140625,
+      "currentEquation": "9/64"
+    },
+    {
+      "name": "Length",
+      "ioValue": 1,
+      "currentEquation": "1"
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "6901b8a9-c3ed-48a1-956a-35ae9f7ef265",
+      "ioValues": []
+    },
+    {
+      "atomType": "Input",
+      "name": "Shaft Diam",
+      "x": 0.033,
+      "y": 0.5807453416149069,
+      "uniqueID": "37662f35-563e-41b8-af83-9d91e297f344",
+      "ioValues": [],
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "name": "Length",
+      "x": 0.033,
+      "y": 0.38509316770186336,
+      "uniqueID": "f2b96f25-74bd-4706-939b-415fc1c5df7a",
+      "ioValues": [],
+      "type": "number"
+    },
+    {
+      "atomType": "Circle",
+      "name": "Circle",
+      "x": 0.2972593113141251,
+      "y": 0.2204968944099379,
+      "uniqueID": "76253b95-efea-4bc2-a2af-67421c51b7dd",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 0.140625
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "name": "Circle",
+      "x": 0.23822909346451157,
+      "y": 0.577639751552795,
+      "uniqueID": "6679de38-bc16-48b3-b8de-12673a4fe7e6",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 0.140625,
+          "currentEquation": "9/64"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.45888966971187634,
+      "y": 0.2950310559006211,
+      "uniqueID": "2b94d730-ff6e-4d0e-a2d5-c1663682cfc0",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 1
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.3893183415319747,
+      "y": 0.5590062111801242,
+      "uniqueID": "c4bb6093-fbc4-4cd3-a2ac-1c392d32aa09",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0.1875,
+          "currentEquation": ".1875"
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "name": "Circle",
+      "x": 0.3169360505973296,
+      "y": 0.8571428571428571,
+      "uniqueID": "d80639bd-79b2-426c-9c1f-3f387898c31b",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 0.34375,
+          "currentEquation": "22/64"
+        }
+      ]
+    },
+    {
+      "atomType": "Loft",
+      "name": "Loft",
+      "x": 0.5326774420238931,
+      "y": 0.7236024844720497,
+      "uniqueID": "3034ded7-ffb2-4d74-9e0a-c05b59d0c33c",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "move-bad04164cd869235246de848e6b3eadec92e70c1e69ed841827add4b17a4b010",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0.1875
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "circle-75725cd54c66d1491f90fe1969540075d37ae518dcdbc239653619191a98e98b",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ],
+      "closedSelection": 0
+    },
+    {
+      "atomType": "Fusion",
+      "name": "Fusion",
+      "x": 0.66268446943078,
+      "y": 0.5217391304347826,
+      "uniqueID": "e7cea3e7-3bbe-481d-98f1-4865d2231311",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "singular-46b1884167c4edd308bcf0c04163dd02d05c9742b35e86b57b5f7ed1b82f3850",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "extrude-317ff967bb247638a43c02e8ef164ae22a0addf642b9a4675e0e57dc5537b210",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        }
+      ],
+      "unionType": "Fusion"
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "diameter",
+      "ap1ID": "37662f35-563e-41b8-af83-9d91e297f344",
+      "ap2ID": "76253b95-efea-4bc2-a2af-67421c51b7dd"
+    },
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "height",
+      "ap1ID": "f2b96f25-74bd-4706-939b-415fc1c5df7a",
+      "ap2ID": "2b94d730-ff6e-4d0e-a2d5-c1663682cfc0"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "76253b95-efea-4bc2-a2af-67421c51b7dd",
+      "ap2ID": "2b94d730-ff6e-4d0e-a2d5-c1663682cfc0"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "6679de38-bc16-48b3-b8de-12673a4fe7e6",
+      "ap2ID": "c4bb6093-fbc4-4cd3-a2ac-1c392d32aa09"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 2",
+      "ap1ID": "2b94d730-ff6e-4d0e-a2d5-c1663682cfc0",
+      "ap2ID": "e7cea3e7-3bbe-481d-98f1-4865d2231311"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 1",
+      "ap1ID": "c4bb6093-fbc4-4cd3-a2ac-1c392d32aa09",
+      "ap2ID": "3034ded7-ffb2-4d74-9e0a-c05b59d0c33c"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 2",
+      "ap1ID": "d80639bd-79b2-426c-9c1f-3f387898c31b",
+      "ap2ID": "3034ded7-ffb2-4d74-9e0a-c05b59d0c33c"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 1",
+      "ap1ID": "3034ded7-ffb2-4d74-9e0a-c05b59d0c33c",
+      "ap2ID": "e7cea3e7-3bbe-481d-98f1-4865d2231311"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "number or geometry",
+      "ap1ID": "e7cea3e7-3bbe-481d-98f1-4865d2231311",
+      "ap2ID": "6901b8a9-c3ed-48a1-956a-35ae9f7ef265"
+    }
+  ],
+  "unitsKey": "Inches",
+  "fileTypeVersion": 1,
+  "compiledBom": [],
+  "filetypeVersion": 1
 }
