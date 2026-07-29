@@ -12,8 +12,7 @@
     },
     {
       "name": "Length",
-      "ioValue": 0.5,
-      "currentEquation": ".5"
+      "ioValue": 2
     }
   ],
   "topLevel": true,
@@ -73,8 +72,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.45888966971187634,
-      "y": 0.2950310559006211,
+      "x": 0.5385139740967962,
+      "y": 0.19939577039274922,
       "uniqueID": "2b94d730-ff6e-4d0e-a2d5-c1663682cfc0",
       "ioValues": [
         {
@@ -83,7 +82,7 @@
         },
         {
           "name": "height",
-          "ioValue": 0.5
+          "ioValue": 2
         }
       ]
     },
@@ -198,15 +197,15 @@
         },
         {
           "name": "Shape 3",
-          "ioValue": null
+          "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
       "closedSelection": 0
     },
     {
       "atomType": "Fusion",
-      "x": 0.6563598032326072,
-      "y": 0.577639751552795,
+      "x": 0.7389229720518065,
+      "y": 0.4954682779456194,
       "uniqueID": "e7cea3e7-3bbe-481d-98f1-4865d2231311",
       "ioValues": [
         {
@@ -239,7 +238,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "extrude-circle-0.0703125-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.5",
+            "geometry": "extrude-circle-0.0703125-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
             "dimension": "3D",
             "tags": [],
             "plane": {
