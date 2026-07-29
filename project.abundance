@@ -1,9 +1,9 @@
 {
   "atomType": "Molecule",
-  "name": "Wood screw ",
   "x": 0,
   "y": 0,
   "uniqueID": "709c9a0a-5501-48e9-aa3e-9822177c18eb",
+  "name": "Wood screw ",
   "ioValues": [
     {
       "name": "Shaft Diam",
@@ -12,41 +12,42 @@
     },
     {
       "name": "Length",
-      "ioValue": 1,
-      "currentEquation": "1"
+      "ioValue": 0.5,
+      "currentEquation": ".5"
     }
   ],
   "topLevel": true,
   "allAtoms": [
     {
       "atomType": "Output",
-      "name": "Output",
       "x": 0.98,
       "y": 0.5,
       "uniqueID": "6901b8a9-c3ed-48a1-956a-35ae9f7ef265",
-      "ioValues": []
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     },
     {
       "atomType": "Input",
-      "name": "Shaft Diam",
-      "x": 0.033,
-      "y": 0.5807453416149069,
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
       "uniqueID": "37662f35-563e-41b8-af83-9d91e297f344",
-      "ioValues": [],
+      "name": "Shaft Diam",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "name": "Length",
-      "x": 0.033,
-      "y": 0.38509316770186336,
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
       "uniqueID": "f2b96f25-74bd-4706-939b-415fc1c5df7a",
-      "ioValues": [],
+      "name": "Length",
       "type": "number"
     },
     {
       "atomType": "Circle",
-      "name": "Circle",
       "x": 0.2972593113141251,
       "y": 0.2204968944099379,
       "uniqueID": "76253b95-efea-4bc2-a2af-67421c51b7dd",
@@ -59,7 +60,6 @@
     },
     {
       "atomType": "Circle",
-      "name": "Circle",
       "x": 0.23822909346451157,
       "y": 0.577639751552795,
       "uniqueID": "6679de38-bc16-48b3-b8de-12673a4fe7e6",
@@ -73,43 +73,46 @@
     },
     {
       "atomType": "Extrude",
-      "name": "Extrude",
       "x": 0.45888966971187634,
       "y": 0.2950310559006211,
       "uniqueID": "2b94d730-ff6e-4d0e-a2d5-c1663682cfc0",
       "ioValues": [
         {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
           "name": "height",
-          "ioValue": 1
+          "ioValue": 0.5
         }
       ]
     },
     {
       "atomType": "Move",
-      "name": "Move",
-      "x": 0.3907238229093465,
-      "y": 0.562111801242236,
+      "x": 0.38971583220568334,
+      "y": 0.45058139534883723,
       "uniqueID": "c4bb6093-fbc4-4cd3-a2ac-1c392d32aa09",
       "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
         {
           "name": "xDist",
           "ioValue": 0
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "zDist",
-          "ioValue": 0.1875,
-          "currentEquation": ".1875"
+          "ioValue": 0.1875
         }
       ]
     },
     {
       "atomType": "Circle",
-      "name": "Circle",
       "x": 0.3169360505973296,
       "y": 0.8571428571428571,
       "uniqueID": "d80639bd-79b2-426c-9c1f-3f387898c31b",
@@ -123,15 +126,26 @@
     },
     {
       "atomType": "Loft",
-      "name": "Loft",
-      "x": 0.5326774420238931,
-      "y": 0.7236024844720497,
+      "x": 0.540595399188092,
+      "y": 0.6773255813953488,
       "uniqueID": "3034ded7-ffb2-4d74-9e0a-c05b59d0c33c",
       "ioValues": [
         {
           "name": "Shape 1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-bad04164cd869235246de848e6b3eadec92e70c1e69ed841827add4b17a4b010",
+            "geometry": "move-circle-0.0703125-0-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -158,7 +172,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "circle-eaaf0cea190c7c1dfc934c125e116863743a504032063035287daab22325fa2e",
+            "geometry": "circle-0.17578125",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -191,15 +205,14 @@
     },
     {
       "atomType": "Fusion",
-      "name": "Fusion",
-      "x": 0.6563598032326072,
-      "y": 0.577639751552795,
+      "x": 0.6657645466847091,
+      "y": 0.43313953488372087,
       "uniqueID": "e7cea3e7-3bbe-481d-98f1-4865d2231311",
       "ioValues": [
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "singular-589ffd3acf522ae81192579f297589e93b0c41f748b224d1b4bb5c857a2f70cb",
+            "geometry": "loft-move-circle-0.0703125-0-0-0-circle-0.17578125-{\"origin\":[0,0,0.1875],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -226,7 +239,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "extrude-317ff967bb247638a43c02e8ef164ae22a0addf642b9a4675e0e57dc5537b210",
+            "geometry": "extrude-circle-0.0703125-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.5",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -255,10 +268,10 @@
     },
     {
       "atomType": "Equation",
-      "name": "Equation",
       "x": 0.13843991567111735,
       "y": 0.813664596273292,
       "uniqueID": "fdeee72d-6220-4c8d-a05d-9b0f80d0c398",
+      "name": "x *2.5",
       "ioValues": [
         {
           "name": "x",
@@ -270,73 +283,61 @@
   ],
   "allConnectors": [
     {
-      "ap1Name": "number or geometry",
       "ap2Name": "diameter",
       "ap1ID": "37662f35-563e-41b8-af83-9d91e297f344",
       "ap2ID": "76253b95-efea-4bc2-a2af-67421c51b7dd"
     },
     {
-      "ap1Name": "number or geometry",
       "ap2Name": "diameter",
       "ap1ID": "37662f35-563e-41b8-af83-9d91e297f344",
       "ap2ID": "6679de38-bc16-48b3-b8de-12673a4fe7e6"
     },
     {
-      "ap1Name": "number or geometry",
       "ap2Name": "x",
       "ap1ID": "37662f35-563e-41b8-af83-9d91e297f344",
       "ap2ID": "fdeee72d-6220-4c8d-a05d-9b0f80d0c398"
     },
     {
-      "ap1Name": "number or geometry",
       "ap2Name": "height",
       "ap1ID": "f2b96f25-74bd-4706-939b-415fc1c5df7a",
       "ap2ID": "2b94d730-ff6e-4d0e-a2d5-c1663682cfc0"
     },
     {
-      "ap1Name": "geometry",
       "ap2Name": "geometry",
       "ap1ID": "76253b95-efea-4bc2-a2af-67421c51b7dd",
       "ap2ID": "2b94d730-ff6e-4d0e-a2d5-c1663682cfc0"
     },
     {
-      "ap1Name": "geometry",
       "ap2Name": "geometry",
       "ap1ID": "6679de38-bc16-48b3-b8de-12673a4fe7e6",
       "ap2ID": "c4bb6093-fbc4-4cd3-a2ac-1c392d32aa09"
     },
     {
-      "ap1Name": "geometry",
       "ap2Name": "Shape 2",
       "ap1ID": "2b94d730-ff6e-4d0e-a2d5-c1663682cfc0",
       "ap2ID": "e7cea3e7-3bbe-481d-98f1-4865d2231311"
     },
     {
-      "ap1Name": "geometry",
       "ap2Name": "Shape 1",
       "ap1ID": "c4bb6093-fbc4-4cd3-a2ac-1c392d32aa09",
       "ap2ID": "3034ded7-ffb2-4d74-9e0a-c05b59d0c33c"
     },
     {
-      "ap1Name": "geometry",
       "ap2Name": "Shape 2",
       "ap1ID": "d80639bd-79b2-426c-9c1f-3f387898c31b",
       "ap2ID": "3034ded7-ffb2-4d74-9e0a-c05b59d0c33c"
     },
     {
-      "ap1Name": "geometry",
       "ap2Name": "Shape 1",
       "ap1ID": "3034ded7-ffb2-4d74-9e0a-c05b59d0c33c",
       "ap2ID": "e7cea3e7-3bbe-481d-98f1-4865d2231311"
     },
     {
-      "ap1Name": "geometry",
       "ap2Name": "number or geometry",
       "ap1ID": "e7cea3e7-3bbe-481d-98f1-4865d2231311",
       "ap2ID": "6901b8a9-c3ed-48a1-956a-35ae9f7ef265"
     },
     {
-      "ap1Name": "result",
       "ap2Name": "diameter",
       "ap1ID": "fdeee72d-6220-4c8d-a05d-9b0f80d0c398",
       "ap2ID": "d80639bd-79b2-426c-9c1f-3f387898c31b"
@@ -344,6 +345,5 @@
   ],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
-  "compiledBom": [],
   "filetypeVersion": 1
 }
