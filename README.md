@@ -4,6 +4,12 @@
 
 ![](/project.svg)
 
+## Inputs
+
+- **Shaft Diam** (number)
+- **Length** (number)
+
+
 
 
  
