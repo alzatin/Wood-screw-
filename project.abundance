@@ -12,7 +12,7 @@
     },
     {
       "name": "Length",
-      "ioValue": 2
+      "ioValue": 4
     }
   ],
   "topLevel": true,
@@ -82,7 +82,7 @@
         },
         {
           "name": "height",
-          "ioValue": 2
+          "ioValue": 4
         }
       ]
     },
@@ -238,7 +238,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "extrude-circle-0.0703125-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
+            "geometry": "extrude-circle-0.0703125-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4",
             "dimension": "3D",
             "tags": [],
             "plane": {
