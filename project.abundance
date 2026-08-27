@@ -220,8 +220,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.669165885660731,
-      "y": 0.4259818731117825,
+      "x": 0.6596558317399618,
+      "y": 0.2345679012345679,
       "uniqueID": "e7cea3e7-3bbe-481d-98f1-4865d2231311",
       "ioValues": [
         {
@@ -308,8 +308,7 @@
         },
         {
           "name": "Pivot",
-          "ioValue": 45,
-          "currentEquation": "45"
+          "ioValue": 45
         },
         {
           "name": "Plane",
