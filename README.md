@@ -2,7 +2,7 @@
 
 # Wood-screw-
 
-![](/project.svg)
+![](/project.png)
 
 ## Inputs
 
