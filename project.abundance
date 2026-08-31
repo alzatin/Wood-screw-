@@ -16,8 +16,7 @@
     },
     {
       "name": "testchange",
-      "ioValue": 17,
-      "currentEquation": "17"
+      "ioValue": 17
     }
   ],
   "topLevel": true,
@@ -303,7 +302,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.6975308641975309,
+      "y": 0.5230769230769231,
       "uniqueID": "id-154",
       "name": "testchange"
     },
