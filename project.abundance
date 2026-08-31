@@ -12,15 +12,15 @@
     },
     {
       "name": "Length",
-      "ioValue": 1
+      "ioValue": 5
     }
   ],
   "topLevel": true,
   "allAtoms": [
     {
       "atomType": "Extrude",
-      "x": 0.5160975609756098,
-      "y": 0.30864197530864196,
+      "x": 0.5236486486486487,
+      "y": 0.3115727002967359,
       "uniqueID": "2b94d730-ff6e-4d0e-a2d5-c1663682cfc0",
       "ioValues": [
         {
@@ -29,7 +29,7 @@
         },
         {
           "name": "height",
-          "ioValue": 1
+          "ioValue": 5
         }
       ]
     },
@@ -238,7 +238,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "extrude-circle-0.0703125-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1",
+            "geometry": "extrude-circle-0.0703125-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5",
             "dimension": "3D",
             "tags": [],
             "plane": {
