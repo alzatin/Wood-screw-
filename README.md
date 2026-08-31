@@ -6,8 +6,8 @@
 
 ## Inputs
 
-- **Length** (number)
 - **Shaft Diam** (number)
+- **Length** (number)
 
 
 
